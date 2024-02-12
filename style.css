@@ -419,9 +419,12 @@ h4{
       padding: 5px;
       color: white;
     }
+    .main{
+        margin-left: 0;
+    }
     .myMain{
         width: 100%;
-        padding-left: 20%;
+        padding-left: 10%;
     }
     .main{
         width: 100%;
@@ -444,7 +447,7 @@ h1{
     .header{
         padding: 10px 0;
         text-align: center;
-        width: 20%;
+        width: 10%;
         padding-top: 20vh;
     }
     .aboutMain{
