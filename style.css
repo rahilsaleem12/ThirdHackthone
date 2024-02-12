@@ -20,7 +20,7 @@ h3{
 }
 h4{
     color: #000000;
-    font-size: 20px;
+    font-size: 22px;
 }
 .profileName{
     color: white;
@@ -387,6 +387,44 @@ h4{
 }
 
 
+
+
+
+
+
+
+
+.resume{
+    width: 100%;
+    padding: 5%;
+}
+.resumeCardMain{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.resumeLeft{
+    width: 50%;
+}
+.resumeLeft button{
+    background-color: #8ed7ff;
+    border: none;
+    padding: 5px;
+    color: black;
+}
+
+.resumeCard{
+    border-left: 2px solid #493ee7;
+    padding-left: 25px;
+}
+.resume li{
+    line-height: 30px;
+
+}
+
+
+
+
 /* @media (max-width:1000px) {
 .icons, .logo, .image{
     display: none;
@@ -493,5 +531,7 @@ h1{
     .formLeft, .formRight{
         width: 100%;
     }
-    
+    .resumeLeft{
+        width: 100%;
+    }
 }
