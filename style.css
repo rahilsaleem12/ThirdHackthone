@@ -127,7 +127,7 @@ h4{
 
 }
 .navbar a{
-    color: #5c5c5c;
+    color: #aeaeae;
     font-size: 15px;
     margin-top: 15px;
     margin-left: .5rem;
@@ -405,9 +405,26 @@ h4{
     .icons, .navbar p, .profileName, .image{
         display: none;
     }
+    .navbar span{
+        display: none;
+    }
+    .navbar{
+        border-radius: 20px;
+        border: 4px double gainsboro;
+        border-left: none;
+        border-right: none;
+    }
     .navbar a{
       margin-left: 0;
       padding: 5px;
+      color: white;
+    }
+    .myMain{
+        width: 100%;
+        padding-left: 20%;
+    }
+    .main{
+        width: 100%;
     }
 .mainContent{
     padding: 0;
@@ -427,6 +444,8 @@ h1{
     .header{
         padding: 10px 0;
         text-align: center;
+        width: 20%;
+        padding-top: 20vh;
     }
     .aboutMain{
         flex-direction: column;
